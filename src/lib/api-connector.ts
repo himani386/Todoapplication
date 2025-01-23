@@ -10,7 +10,7 @@ async function apiConnector(
  ) {
   try {
     const config: AxiosRequestConfig = {
-      url:`http://localhost:4000/${url}`,
+      url:`https://todobackend-kn6k.onrender.com/${url}`,
       method,
       headers,
       params,
