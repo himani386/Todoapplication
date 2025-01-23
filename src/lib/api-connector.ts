@@ -1,9 +1,5 @@
 import axios, { AxiosRequestConfig, Method } from 'axios';
 
-interface ApiResponse<T = any> {
-  status: number;
-  data: T;
-}
 
 async function apiConnector(
     method: Method,
